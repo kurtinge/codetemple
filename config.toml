@@ -1,0 +1,93 @@
+baseURL = 'http://jedi.eod.cc/'
+languageCode = 'en-us'
+title = 'Jedi Coding Temple'
+theme = 'hello-4s3ti'
+
+[params]
+  dateform        = "2 Jan, 2006"
+  dateformShort   = "2 Jan"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Jedi Coding Temple"
+  backgroundImage = "images/background.png"
+  backgroundEffects = true
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  showPosts = true
+
+  # Shows the ReadMore button in text instead
+  ReadmoreText = true
+
+  # Hides ReadMore
+  hideReadMore = false
+
+  # Shows reding time
+  ShowReadingTime = true
+
+  # Metadata mostly used in document's head
+  description = "Writing mostly about programming"
+  keywords = "homepage, blog, shopware6"
+  images = [""]  
+
+  [params.fontAwesome]
+    KitURL = "https://kit.fontawesome.com/814d63b7dc.js"
+
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = true
+    author = true
+
+    # Shows social icons on footer instead of main page
+    socialIcons = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Hello 4s3ti theme by <a href=\"https://github.com/4s3ti\">4s3ti</a>"
+    ]  
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/kurtinge"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/kurtinge"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/kurtinge"
+
+  [[params.social]]
+    name = "stack-overflow"
+    url  = "https://stackoverflow.com/users/14159703/kurt-inge"    
+
+[languages]
+  [languages.en]
+    title = "The Jedi coding temple"
+    subtitle = ""
+    keywords = ""
+    copyright = '<a href="/" rel="noopener">Jedi Coding Temple</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Jedi Coding Temple"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
